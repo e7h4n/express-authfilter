@@ -1,6 +1,5 @@
 {
-  "name": "node-authfilter",
-  "version": "0.9.0",
+  "name": "authfilter",
   "description": "A simple node auth filter middleware for express/connect.",
   "main": "index.js",
   "scripts": {
