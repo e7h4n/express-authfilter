@@ -1,0 +1,31 @@
+{
+  "name": "node-authfilter",
+  "version": "0.9.0",
+  "description": "A simple node auth filter middleware for express/connect.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/perfectworks/node-authfilter.git"
+  },
+  "keywords": [
+    "authfilter",
+    "express",
+    "connect"
+  ],
+  "author": "perfectworks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perfectworks/node-authfilter/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "expect": "0.0.2",
+    "chai": "~1.8.1"
+  },
+  "dependencies": {
+    "underscore": "~1.5.2"
+  }
+}
