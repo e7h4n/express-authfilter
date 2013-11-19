@@ -1,7 +1,7 @@
 var _ = require('underscore');
 
 function _testUrlList(urlList, url) {
-    return urlList.some(function (pattern) {
+    return (urlList || []).some(function (pattern) {
         if (!(pattern instanceof RegExp)) {
             return url === pattern;
         }
@@ -60,7 +60,7 @@ exports.create = function (options) {
         if (options.check.length < 3) {
             onCheck(null, options.check(req, res));
         } else {
-            options.check(onCheck);
+            options.check(req, res, onCheck);
         }
     };
 
