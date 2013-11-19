@@ -1,6 +1,6 @@
 {
   "name": "authfilter",
-  "description": "A simple node auth filter middleware for express/connect.",
+  "description": "A simple node auth filter middleware for express.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -11,8 +11,7 @@
   },
   "keywords": [
     "authfilter",
-    "express",
-    "connect"
+    "express"
   ],
   "author": "perfectworks",
   "license": "MIT",

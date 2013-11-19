@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/perfectworks/node-authfilter.png?branch=master)](https://travis-ci.org/perfectworks/node-authfilter)
 
-A simple auth filter middleware for express/connect.
+A simple auth filter middleware for express.
 
 ## Example
 
