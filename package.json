@@ -1,5 +1,5 @@
 {
-  "name": "authfilter",
+  "name": "express-authfilter",
   "description": "A simple node auth filter middleware for express.",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/perfectworks/node-authfilter.git"
+    "url": "git://github.com/perfectworks/express-authfilter.git"
   },
   "keywords": [
     "authfilter",
@@ -16,7 +16,7 @@
   "author": "perfectworks",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/perfectworks/node-authfilter/issues"
+    "url": "https://github.com/perfectworks/express-authfilter/issues"
   },
   "devDependencies": {
     "mocha": "~1.14.0",
