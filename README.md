@@ -1,6 +1,6 @@
 # authfilter
 
-[![Build Status](https://travis-ci.org/perfectworks/node-authfilter.png?branch=master)](https://travis-ci.org/perfectworks/node-authfilter)
+[![Build Status](https://travis-ci.org/perfectworks/express-authfilter.png?branch=master)](https://travis-ci.org/perfectworks/express-authfilter)
 
 A simple auth filter middleware for express.
 
@@ -22,7 +22,7 @@ var filter = require('authfilter').create({
         return Boolean(req.session.user);
     },
     // login method
-    check: function (req, res) {
+    login: function (req, res) {
         res.rediect('/login');
     }
 });

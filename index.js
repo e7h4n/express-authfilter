@@ -24,9 +24,9 @@ exports.create = function (options) {
 
     var filter = function (req, res, next) {
         var needTest = false;
-        if (options.allow === true || options.allow.length === 0) {
+        if (options.allow === true || !options.allow ||  options.allow.length === 0) {
             needTest = _testUrlList(options.deny, req.url);
-        } else if (options.deny === true || options.deny.length === 0) {
+        } else if (options.deny === true || !options.deny || options.deny.length === 0) {
             needTest = !_testUrlList(options.allow, req.url);
         } else {
             var allow = _testUrlList(options.deny, req.url);
